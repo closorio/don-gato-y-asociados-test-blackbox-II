@@ -1,0 +1,59 @@
+.Navbar .basic-navbar-nav .nav-link{
+    font-family: 'Nunito', sans-serif;
+    gap: 20px;
+}
+
+/*CART-NAVBAR*/
+.cartCount {
+    color: white;
+    font-size: 1.5rem;
+}
+.cart-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.cart-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*APP*/
+.text-center{
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+/*CART*/
+.cart-container{
+    padding: 50px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: rgba(73, 138, 116, 0.1);
+}
+
+
+
+/*vista mobile*/
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .cart-desktop {
+        display: none;
+    }
+}
+
+/* vista entre desktop y mobile */
+@media only screen and (min-width:768px) and (max-width:1239px) {
+    .cart-desktop {
+        display: none;
+    }
+}
+
+/*vista desktop */
+@media only screen and (min-width:1240px) {
+    .cart-mobile {
+        display: none;
+    }
+}
